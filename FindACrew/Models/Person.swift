@@ -14,6 +14,7 @@ struct Person: Codable {
 	enum CodingKeys: String, CodingKey {
 		case name
 		case birthYear = "birth_year"
+		case hairColor = "hair_color"
 	}
 
 	let name: String
