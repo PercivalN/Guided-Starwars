@@ -13,6 +13,8 @@
 		4606FAF3231EC44500DA745E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4606FAF1231EC44500DA745E /* LaunchScreen.storyboard */; };
 		4606FAFB231EC48000DA745E /* PersonSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606FAFA231EC48000DA745E /* PersonSearchTableViewController.swift */; };
 		DD0E155B231ECC2C0082D908 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E155A231ECC2C0082D908 /* Person.swift */; };
+		DD0E155D231ED4D20082D908 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E155C231ED4D20082D908 /* PersonController.swift */; };
+		DD0E155F231EE30E0082D908 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E155E231EE30E0082D908 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4606FAF4231EC44500DA745E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4606FAFA231EC48000DA745E /* PersonSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchTableViewController.swift; sourceTree = "<group>"; };
 		DD0E155A231ECC2C0082D908 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DD0E155C231ED4D20082D908 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		DD0E155E231EE30E0082D908 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		4606FADC231EC44400DA745E = {
 			isa = PBXGroup;
 			children = (
+				DD0E155E231EE30E0082D908 /* PersonTableViewCell.swift */,
+				DD0E155C231ED4D20082D908 /* PersonController.swift */,
 				4606FAE7231EC44400DA745E /* FindACrew */,
 				4606FAE6231EC44400DA745E /* Products */,
 			);
@@ -163,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4606FAFB231EC48000DA745E /* PersonSearchTableViewController.swift in Sources */,
+				DD0E155D231ED4D20082D908 /* PersonController.swift in Sources */,
 				DD0E155B231ECC2C0082D908 /* Person.swift in Sources */,
+				DD0E155F231EE30E0082D908 /* PersonTableViewCell.swift in Sources */,
 				4606FAE9231EC44400DA745E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

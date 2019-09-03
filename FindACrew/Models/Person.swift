@@ -6,7 +6,13 @@
 //  Copyright © 2019 Lambda School. All rights reserved.
 //
 
+
+
 import Foundation
+
+struct PersonSearch: Codable {
+	let results: [Person]
+}
 
 struct Person: Codable {
 
@@ -19,6 +25,6 @@ struct Person: Codable {
 
 	let name: String
 	let birthYear: String
-
+	let hairColor: String
 }
 
